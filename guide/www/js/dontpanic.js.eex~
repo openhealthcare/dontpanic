@@ -1,0 +1,5 @@
+var app = angular.module('dontpanic', ['ngCordova']);
+
+app.controller('GuidelineCtrl', function($scope){
+    $scope.title = "Don't Panic";
+});

@@ -1,0 +1,10 @@
+defmodule Mix.Tasks.Build do
+  use Mix.Task
+  
+  @shortdoc "Build guides"
+  
+  def run(_) do
+    IO.puts "Building guides"
+    IO.puts hd(Mix.Project.config[:guides])[:name]
+  end
+end
