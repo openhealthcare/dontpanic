@@ -3,7 +3,7 @@ defmodule Dontpanic.Mixfile do
 
   def project do
     [app: :dontpanic,
-     version: "0.0.1",
+     version: "2.0.1",
      elixir: "~> 1.0.0",
      deps: deps,
      guides: guides
@@ -36,8 +36,9 @@ defmodule Dontpanic.Mixfile do
     [
         [
             name: "Nice Guidelines",
-            repo: "https://github.com/openhealthcare/nice.panic",
-            json: "https://raw.githubusercontent.com/openhealthcare/scrapers/master/example_output/nice.json"
+            repo: "git@github.com:openhealthcare/nice.panic",
+            json: "https://raw.githubusercontent.com/openhealthcare/scrapers/master/example_output/nice.json",
+            icons: "icons/nice/"
         ]
     ]
   end
